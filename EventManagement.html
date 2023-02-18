@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Event Management Page</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+	<header>
+		<h1>Upcoming Events</h1>
+		<nav>
+			<ul>
+				<li><a href="#create">Create Event</a></li>
+				<li><a href="#register">Register Event</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section class="event">
+			<h2>Concert</h2>
+			<p>March 15, 2023 | 7:00 PM</p>
+			<button>Book Now</button>
+		</section>
+		<section class="event">
+			<h2>Theater Play</h2>
+			<p>April 12, 2023 | 8:00 PM</p>
+			<button>Book Now</button>
+		</section>
+		<section class="event">
+			<h2>Comedy Show</h2>
+			<p>May 20, 2023 | 9:00 PM</p>
+			<button>Book Now</button>
+		</section>
+	</main>
+
+	<section id="create">
+		<h2>Create Event</h2>
+		<form>
+			<label for="event-name">Event Name:</label>
+			<input type="text" id="event-name" name="event-name" required>
+			<label for="event-date">Event Date:</label>
+			<input type="date" id="event-date" name="event-date" required>
+			<label for="event-time">Event Time:</label>
+			<input type="time" id="event-time" name="event-time" required>
+			<button type="submit">Create</button>
+		</form>
+	</section>
+
+	<section id="register">
+		<h2>Register Event</h2>
+		<form>
+			<label for="event-name">Event Name:</label>
+			<input type="text" id="event-name" name="event-name" required>
+			<label for="attendee-name">Attendee Name:</label>
+			<input type="text" id="attendee-name" name="attendee-name" required>
+			<label for="attendee-email">Attendee Email:</label>
+			<input type="email" id="attendee-email" name="attendee-email" required>
+			<button type="submit">Register</button>
+		</form>
+	</section>
+
+</body>
+</html>

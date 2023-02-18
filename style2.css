@@ -1,0 +1,41 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	margin-right: 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+section.event {
+	background-color: #f9f9f9;
+	box-shadow: 0px 2px 5px rgba(
