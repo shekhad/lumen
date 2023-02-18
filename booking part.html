@@ -1,0 +1,91 @@
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Booking Form HTML Template</title>
+
+	
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+	
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	
+</head>
+
+<body>
+	<div id="booking" class="section">
+		<div class="section-center">
+			<div class="container">
+				<div class="row">
+					<div class="booking-form">
+						<div class="form-header">
+							<h1>Book Your Event Here</h1>
+						</div>
+						<form onsubmit="func(event)">
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="form-group">
+										<span class="form-label">Name</span>
+										<input class="form-control" type="text" placeholder="Enter your name" required>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<span class="form-label">Email</span>
+										<input class="form-control" type="email" placeholder="Enter your email" required>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<span class="form-label">Phone</span>
+								<input class="form-control" type="tel" minlength="10" placeholder="Enter your phone number" required>
+							</div>
+							<div class="form-group">
+								<span class="form-label">Event Name</span>
+								<input class="form-control" type="text" placeholder="Enter ZIP/Location">
+							</div>
+							<div class="row">
+								<div class="col-sm-7">
+									<div class="form-group">
+										<span class="form-label">Event Attending Date</span>
+										<input class="form-control" type="date" required>
+									</div>
+								</div>
+								<div class="col-sm-5">
+									<div class="form-group">
+										<span class="form-label">Number of Tickets</span>
+										<input class="form-control" type="number" min="1" required>
+									</div>
+								</div>
+							</div>
+							<div class="form-btn">
+								<input type="submit" class="submit submit-btn">Book Now</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>  
+	<script>
+		function func(event){
+			event.preventDefault();
+			swal('Good job!', 'Your event is booked!', 'success').then(function() {
+    		event.target.submit();
+  			});
+		}
+	</script>
+</body>
+
+</html>
+[0:49 pm, 18/02/2023] Aditi Raj: Index page hai ??
+[0:49 pm, 18/02/2023] 1 Sandeep Ece ( Call): html file me paste krdo ye
